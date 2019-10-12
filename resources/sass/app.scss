@@ -1,0 +1,39 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+#container-logged-out {
+    display: none;
+}
+
+.btn-follow {
+    background-color: $orange !important;
+    color: $fg-text-light !important;
+}
+
+.btn-following {
+    background-color: $green !important;
+    color: $fg-text-light !important;
+}
+
+.btn-following:hover {
+    background-color: $red !important;
+}
+
+.btn-following:hover span {
+    display:none
+}
+
+.btn-following:hover:before {
+    content:"Unfollow"
+}
+
+.margin-bottom {
+    margin-bottom: $margin-bottom;
+}
