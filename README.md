@@ -11,7 +11,7 @@ npm install\
 \
 Backend at App\Http\Controllers\UserController \
 Frontend at resources\js  \
-Views at resources\views  \
+Views at resources\views 
 
 
 
